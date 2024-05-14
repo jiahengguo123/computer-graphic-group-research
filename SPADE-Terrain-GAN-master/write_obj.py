@@ -41,3 +41,4 @@ def write_obj(outpath, T, H, h_scale=3):
         file.write("newmtl Map\nKa 1.000 1.000 1.000\nKd 1.000 1.000 1.000\nKs 0.000 0.000 0.000\nillum 1\nmap_Ka MapTexture.png\nmap_Kd MapTexture.png")
     
     cv2.imwrite(os.path.join(outpath,'MapTexture.png'), T.astype('uint8'))
+# %%
